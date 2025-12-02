@@ -14,3 +14,8 @@ jobs:
         run: |
           echo "Você criou seu primeiro workflow"
           echo "Parabêns"
+      - name: "Scrip Python"
+        run: |
+          variavel = "Hello World"
+          print(variavel)
+        shell: python
